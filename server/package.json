@@ -1,0 +1,19 @@
+{
+  "name": "servercode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "DrCode",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15",
+    "stripe": "^8.195.0",
+    "uuid": "^8.3.2"
+  }
+}
